@@ -33,6 +33,64 @@ header{
 
 /* Banner */
 
-.banner img{
-    width: 100%;
+.banner-container{
+    background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.banner-container h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.banner-container p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner-container li{
+    display: block;
+    margin: 5px;
+    margin-right: 15px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.banner-container li h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.banner-container li p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 15px;
+    font-size: 15px;
+    color: #c9c9c9;
+}
+
+.banner-container li button{
+    color: #FFFFFF;
+    background-color: #538DFE;   
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-container li button:hover{
+    color: #000000;
 }
