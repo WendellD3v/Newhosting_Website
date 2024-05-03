@@ -44,21 +44,6 @@ header{
     padding: 0px 50px;
 }
 
-.banner-container h2{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 800;
-    color: #FFFFFF;
-}
-
-.banner-container p{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    color: #FFFFFF;
-}
-
 .banner-container li{
     display: block;
     margin: 5px;
@@ -72,6 +57,7 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 800;
+    color: #FFFFFF;
 }
 
 .banner-container li p{
